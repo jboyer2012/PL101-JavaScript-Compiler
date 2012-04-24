@@ -38,7 +38,7 @@ var CompileExpr = function (expr, startTime) {
 			var result = [];
 			for (var i = 0; i < expr.count; i++)
 			{
-				result.push(CompileExpr(expr.section, expr.dur * i);
+				result.push(CompileExpr(expr.section, expr.dur * i));
 			}
 			return result;
 			
@@ -58,13 +58,13 @@ var convertPitch = function (pitch) {
 	
 	switch(letterPitch) 
 	{
-		case: 'c': letterPitch = 0; break;
-		case: 'd': letterPitch = 2; break;
-		case: 'e': letterPitch = 4; break;
-		case: 'f': letterPitch = 5; break;
-		case: 'g': letterPitch = 7; break;
-		case: 'a': letterPitch = 9; break;
-		case: 'b': letterPitch = 11; break;
+		case 'c': letterPitch = 0; break;
+		case 'd': letterPitch = 2; break;
+		case 'e': letterPitch = 4; break;
+		case 'f': letterPitch = 5; break;
+		case 'g': letterPitch = 7; break;
+		case 'a': letterPitch = 9; break;
+		case 'b': letterPitch = 11; break;
 		default: letterPitch = 0;
 	}
 	
